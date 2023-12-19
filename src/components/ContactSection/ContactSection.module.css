@@ -1,0 +1,49 @@
+.contact {
+  padding: 1rem var(--padding-y);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+.contact * {
+  margin-bottom: 1rem;
+}
+.contact h5 {
+  font-size: var(--fs-h2);
+  margin-bottom: 0.5rem;
+}
+.contact form {
+  min-width: 300px;
+  width: 33vw;
+}
+.contact form textarea {
+  height: 20vh;
+}
+.contact form .agreement {
+  margin-bottom: 0.5rem;
+  gap: 1rem;
+  justify-content: start;
+}
+.contact form .agreement label {
+  margin-top: 0rem !important;
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+  display: inline;
+  width: auto;
+}
+.contact form .agreement input {
+  display: inline;
+  margin: 0rem;
+  width: 1.5rem;
+  height: 1rem;
+  accent-color: black;
+}
+.contact form span {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: var(--gray);
+}
+.contact form button {
+  margin: 0 auto;
+  margin-top: 30px;
+}/*# sourceMappingURL=ContactSection.module.css.map */

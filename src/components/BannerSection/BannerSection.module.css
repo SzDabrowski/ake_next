@@ -1,0 +1,18 @@
+.banner {
+  text-align: left;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../../assets/warehouse.png") center/cover no-repeat;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5vw;
+  padding: 10vh var(--padding-y);
+  color: white;
+}
+.banner h2 {
+  color: inherit;
+  font-size: var(--fs-h3);
+}
+.banner p {
+  font-size: 1rem;
+  line-height: 2rem;
+}/*# sourceMappingURL=BannerSection.module.css.map */

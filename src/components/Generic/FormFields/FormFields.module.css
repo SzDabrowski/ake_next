@@ -1,0 +1,23 @@
+.label {
+  text-align: left;
+  display: block;
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.input {
+  width: 100%;
+  padding: 1rem 1.25rem 1rem 0;
+  text-indent: 1rem;
+  margin-top: 0.5rem;
+  background: rgb(241, 242, 243);
+  border: 1px;
+  border-radius: 4px;
+  outline: none;
+  transition: all 0.3s ease-in-out 0s;
+  min-height: 2rem;
+}
+.input:focus-within {
+  background: none;
+  box-shadow: black 0px 0px 0px 1px;
+}/*# sourceMappingURL=FormFields.module.css.map */

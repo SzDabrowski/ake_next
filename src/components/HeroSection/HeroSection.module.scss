@@ -1,0 +1,22 @@
+.hero {
+	//width: ;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("../../assets/hero.png");
+	background-repeat: no-repeat;
+	background-size: auto;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	color: white;
+	text-align: left;
+	padding-left: var(--padding-y);
+
+	.textContent {
+		width: 60vw;
+
+		font-size: var(--fs-h1); /* Adjust the font size as needed */
+		font-weight: bold;
+		margin-bottom: 20px; /* Adjust the margin as needed */
+	}
+}

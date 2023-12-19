@@ -1,0 +1,18 @@
+.Button {
+	display: block;
+	margin-top: 5vh;
+	font-size: 1rem;
+	border: 0;
+	outline: none;
+	padding: 1rem 2rem;
+	background: black;
+	color: white;
+	transition: 500ms linear;
+
+	&:hover,
+	&:active {
+		background: white;
+		color: black;
+		box-shadow: black 0px 0px 0px 1px;
+	}
+}
