@@ -9,7 +9,6 @@ const AboutUsSection = () => {
 		>
 			<div className={styles.proposition}>
 				<Slide
-					delay={300}
 					direction="left"
 					triggerOnce
 					cascade
@@ -47,7 +46,6 @@ const AboutUsSection = () => {
 
 				<Slide
 					direction="right"
-					fraction={1}
 					triggerOnce
 				>
 					<div className={styles.partnerImage}></div>
