@@ -1,5 +1,5 @@
 import styles from "./BenefitsSection.module.scss";
-import { Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 import { RectangleIcon } from "../Icons/RectangleIcon";
 
@@ -9,8 +9,9 @@ const BenefitsSection = () => {
 			className={styles.benefits}
 			id="offer"
 		>
-			<Slide
-				direction="left"
+			<Fade
+				direction="down"
+				fraction={1}
 				triggerOnce
 			>
 				<span>Dopasowanie</span>
@@ -54,7 +55,7 @@ const BenefitsSection = () => {
 						</p>
 					</div>
 				</div>
-			</Slide>
+			</Fade>
 		</section>
 	);
 };

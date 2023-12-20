@@ -1,7 +1,7 @@
 import styles from "./HeroSection.module.scss";
 import Button from "../Generic/Button/Button";
 
-import { Fade } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 import { ContentSectionProps } from "../types";
 
 const HeroSection = (props: ContentSectionProps) => {
@@ -18,7 +18,7 @@ const HeroSection = (props: ContentSectionProps) => {
 			className={styles.hero}
 			id="hero"
 		>
-			<Fade
+			<Slide
 				direction={props.direction}
 				triggerOnce
 				cascade
@@ -33,7 +33,7 @@ const HeroSection = (props: ContentSectionProps) => {
 						action={scrollTo}
 					/>
 				</div>
-			</Fade>
+			</Slide>
 		</section>
 	);
 };
