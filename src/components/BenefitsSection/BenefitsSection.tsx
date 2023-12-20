@@ -10,8 +10,7 @@ const BenefitsSection = () => {
 			id="offer"
 		>
 			<Fade
-				direction="down"
-				fraction={1}
+				direction="right"
 				triggerOnce
 			>
 				<span>Dopasowanie</span>

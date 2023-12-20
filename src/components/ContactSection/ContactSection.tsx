@@ -102,7 +102,6 @@ const ContactSection = () => {
 			<Fade
 				direction="up"
 				triggerOnce
-				fraction={1}
 			>
 				<h5>Napisz do nas</h5>
 				<p>
