@@ -46,8 +46,8 @@ const AboutUsSection = () => {
 				</Slide>
 
 				<Slide
-					delay={300}
 					direction="right"
+					fraction={1}
 					triggerOnce
 				>
 					<div className={styles.partnerImage}></div>

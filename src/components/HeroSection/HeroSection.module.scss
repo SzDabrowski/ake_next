@@ -15,8 +15,10 @@
 	.textContent {
 		width: 60vw;
 
-		font-size: var(--fs-h1); /* Adjust the font size as needed */
-		font-weight: bold;
-		margin-bottom: 20px; /* Adjust the margin as needed */
+		h1 {
+			font-size: var(--fs-h1); /* Adjust the font size as needed */
+			font-weight: 700;
+			margin-bottom: 20px; /* Adjust the margin as needed */
+		}
 	}
 }
